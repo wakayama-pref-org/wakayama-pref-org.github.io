@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+
+/**********************************************************************/
+/* = モジュール内各種
+***********************************************************************/
+
+/* 説明（）
+----------------------------------------------------------------------*/
+.note_exp1 {
+	display: block;
+	width: auto;
+	height: auto;
+	margin-bottom: 7px;
+	padding: 2px 0 2px 5px;
+	border-left: 4px solid #CC6600;
+	line-height: 1.4;
+	font-size: 100%;
+}
+
+/* 説明（イラストマップ）
+----------------------------------------------------------------------*/
+.note_exp2 {/* イラストマップ部分の説明 */	
+	width: auto;
+	margin: 0 auto;
+	padding: 5px 0;
+	background: #fff;
+    color: #2b2b2b;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* イラストマップ
+----------------------------------------------------------------------*/
+div#imagemap {
+    cursor: pointer;
+}
+
+/* リスト（頭文字）
+----------------------------------------------------------------------*/
+ul.list_initial li {
+	float: left;
+	margin: 0 .7em;
+}
+
+ul.list_initial li a {
+	font-size: 108%;
+	font-weight: bold;	
+}
+
+ul.list_initial li span.initial-enabled {
+    color: #aaa;
+}
+
+/* リンク（住所一覧）
+----------------------------------------------------------------------*/
+div.list_link1 {}
+
+div.list_link1 a {
+	padding: 0 0 0 20px;
+	background: url(../img/icon_list.png) no-repeat 0 50%;
+	font-size: 116%;
+}
+
+/* リスト（2列 - 目標施設）
+----------------------------------------------------------------------*/
+ul.list_column2 {
+	text-align: left;
+	width: 100%;
+}
+
+ul.list_column2 li {
+	float: left;
+	margin-right: 4px;
+	line-height: 1.4;
+	width: 112px;
+/*	background: #ddd;*/
+}
+
+ul.list_column2 li a {
+	display: inline-block;
+	height: auto;
+	padding: 2px 0 2px 13px;
+	background: url(../img/arrow_org.png) no-repeat 0 6px;
+	font-size: 100%;
+}
+
+/* リスト（3列 - 施設カテゴリ）
+----------------------------------------------------------------------*/
+ul.clm-half {
+	text-align: left;
+	width: 100%;
+}
+
+ul.clm-half li {
+	float: left;
+	margin-right: 0;
+	line-height: 1.4;
+	width: 112px;
+}
+
+ul.clm-half li a {
+	display: inline-block;
+	height: auto;
+	padding: 2px 0 2px 13px;
+	background: url(../img/arrow_org.png) no-repeat 0 6px;
+	font-size: 100%;
+}

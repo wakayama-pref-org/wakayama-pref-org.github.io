@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/**********************************************************************/
+/* = メインフレーム
+***********************************************************************/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    overflow: scroll;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+a { outline: none;}
+a:hover { color: #f00;}
+
+img { vertical-align: center;}
+
+
+/**********************************************************************/
+/* = ヘッダ
+***********************************************************************/
+header {
+    margin: 10px auto 0;
+    width: 980px;
+    height: 120px;
+    position: relative;
+}
+header img {
+    float: left;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    line-height: 100px;
+    color: #333;
+}
+
+#boxSearch {
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 100px;
+}
+
+nav {
+    margin: 0 auto .5em;
+    width: 980px;
+    padding-left: 40px;
+    background: url(../img/icon_home.png) no-repeat 20px 50%;
+    font-size: 93%;
+    font-weight: bold;
+}
+
+nav a {
+    font-weight: normal;
+}
+
+nav span {
+    padding: 0 .5em;
+}
+
+/**********************************************************************/
+/* = コンテンツ
+***********************************************************************/
+.main {
+    margin: 0 auto;
+    width: 980px;
+}
+
+section h1 {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-sizing: border-box;
+    background-color: #342a66;
+    padding: 0 0 0 1em;
+    color: #fff;
+    line-height: 2.4;
+}
+
+section p {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-sizing: border-box;
+    padding: 0.5em 1em;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 1em;
+}
+
+section ul {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-sizing: border-box;
+    padding: 0.5em 1em;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 1em;
+}
+
+section ul li {
+    line-height: 2;
+}
+
+section ul li a {
+    padding-left: 1em;
+    background: url(../img/arrow_org.png) no-repeat 0 50%;
+}
+
+
+/**********************************************************************/
+/* = フッタ
+***********************************************************************/
+footer {
+    margin: 0 auto;
+    width: 980px;
+}

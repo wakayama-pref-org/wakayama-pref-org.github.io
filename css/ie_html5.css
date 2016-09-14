@@ -1,0 +1,5 @@
+﻿@charset "UTF-8";
+
+header, footer, nav, section, article, figure, aside, hgroup, figure, figcaption {
+    display: block
+}
